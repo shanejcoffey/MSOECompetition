@@ -1,0 +1,22 @@
+omelet:
+  3 count egg
+  0.03 l butter
+  40 g cheese
+  5 g salt
+  435 calories
+french_toast:
+  1 count egg
+  0.01 l butter
+  5 g sugar
+  0.07 l syrup
+  2 count bread_slice
+  550 calories
+END
+bread_slice 30 count
+salt 500 g
+butter 1 l
+cheese 500 g
+egg 11 count
+sugar 1000 g
+corn 2000 g
+syrup 0.2 l

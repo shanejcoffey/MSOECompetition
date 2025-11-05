@@ -8,7 +8,8 @@ public class Q9FindingAntFood {
         try {
             scan = new Scanner(file);
         } catch(FileNotFoundException e) {
-            System.out.println(e);
+            System.out.println("file not found");
+            return;
         }
 
         ArrayList<String> input = new ArrayList<>();
@@ -16,7 +17,7 @@ public class Q9FindingAntFood {
             input.add(scan.nextLine());
         }
 
-        char[][] map = new char[input.size()][input.get(0).length()];
+        char[][] map = new char[input.size()][input.getFirst().length()];
         for(int i = 0; i < map.length; i++) {
             for(int j = 0; j < map[i].length; j++) {
                 map[i][j] = input.get(i).charAt(j);
