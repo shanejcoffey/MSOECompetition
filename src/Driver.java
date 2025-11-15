@@ -1,9 +1,6 @@
 import y2023.Q1RacingASCII;
 import y2023.Q9StuffingRecipes;
-import y2024.Q1ExploringAnts;
-import y2024.Q2CarsAfield;
-import y2024.Q3PrimeBirthYears;
-import y2024.Q9FindingAntFood;
+import y2024.*;
 
 import java.util.Scanner;
 
@@ -41,6 +38,9 @@ public class Driver {
                         break;
                     case 3:
                         Q3PrimeBirthYears.solve();
+                        break;
+                    case 4:
+                        Q4HappyAlphabeticalAnts.solve();
                         break;
                     case 9:
                         Q9FindingAntFood.solve();
