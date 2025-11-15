@@ -1,8 +1,10 @@
+package y2023;
 import java.util.*;
 
 public class Q1RacingASCII {
-    static void main(String[] args) {
+    public static void solve() {
         Scanner scan = new Scanner(System.in);
+        System.out.println("Enter the two lines");
         String l1 = scan.nextLine();
         String l2 = scan.nextLine();
 

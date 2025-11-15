@@ -1,8 +1,10 @@
+package y2024;
 import java.util.Scanner;
 
 public class Q1ExploringAnts {
-    public static void main(String[] args) {
+    public static void solve() {
         Scanner scan = new Scanner(System.in);
+        System.out.println("Enter the height, length, and width");
         int h = scan.nextInt();
         int w = scan.nextInt();
         int l = scan.nextInt();

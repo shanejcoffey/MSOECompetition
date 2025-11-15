@@ -1,7 +1,8 @@
+package y2024;
 import java.util.Scanner;
 
 public class Q3PrimeBirthYears {
-    public static void main(String[] args) {
+    public static void solve() {
         
         Scanner scan = new Scanner(System.in);
         System.out.println("What is the difference between the parent's age and the child's age?");

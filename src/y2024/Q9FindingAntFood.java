@@ -1,10 +1,11 @@
+package y2024;
 import java.io.*;
 import java.util.*;
 
 public class Q9FindingAntFood {
-    public static void main(String[] args) {
+    public static void solve() {
         Scanner scan = null;
-        File file = new File("9a.txt");
+        File file = new File("src/DataFiles/9a.txt");
         try {
             scan = new Scanner(file);
         } catch(FileNotFoundException e) {

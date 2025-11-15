@@ -1,8 +1,9 @@
+package y2023;
 import java.io.*;
 import java.util.*;
 
 public class Q9StuffingRecipes {
-    public static void main(String[] args) {
+    public static void solve() {
         Scanner scan = null;
         File file = new File("Breakfast.txt");
         try {
